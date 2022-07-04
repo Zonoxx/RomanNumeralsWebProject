@@ -122,5 +122,13 @@ namespace RomanNumeralsWebProject.UseCases
             }
             return true;
         }
+
+        public static void Run()
+        {
+            var converter = new ConvertFromNumeraltoIntUsecase();
+            var input = converter.getUserInput();
+            var result = converter.convertRomanNumeralToInt(input);
+            Console.WriteLine($"The Numeral you entered is {result} in decimal numbers");
+        }
     }
 }
