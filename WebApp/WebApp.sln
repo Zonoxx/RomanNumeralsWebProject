@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp.csproj", "{2745AE8C-60EE-4CC6-814A-7451DA9E28C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "..\UnitTests\UnitTests.csproj", "{8A99BDC3-CE07-46AE-B956-BDC7763F1110}"
-	ProjectSection(ProjectDependencies) = postProject
-		{2745AE8C-60EE-4CC6-814A-7451DA9E28C5} = {2745AE8C-60EE-4CC6-814A-7451DA9E28C5}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
