@@ -7,6 +7,9 @@ namespace WebApp.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
+        public string Numeral { get; set; }
+
+
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
@@ -14,7 +17,12 @@ namespace WebApp.Pages
 
         public void OnGet()
         {
+            Page();
+        }
 
+        public void OnPost(string numeral)
+        {
+            Numeral = numeral;
         }
     }
 }

@@ -3,8 +3,16 @@
 @{
     ViewData["Title"] = "Roman Numeral Converter";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Roman Numerals Converter</h1>
-    <span>Enter a Roman Numeral to be converted to a decimal number</span>
+<div>
+    <div class="text-center">
+        <h1 class="display-4">Roman Numerals Converter</h1>
+        <span>Enter a Roman Numeral to be converted to a decimal number</span>
+    </div>
+    <form method="post">
+        <div class="form-group">
+            <label for="Numeral">Your Numeral</label>
+            <input type="text" class="form-control" id="Title" name="Title">
+        </div>
+        <button type="submit" class="btn btn-primary">Convert</button>
+    </form>
 </div>
